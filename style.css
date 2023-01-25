@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://wallpaperaccess.com/full/114562.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px ;
+    background-color: rgb(0,0,0, 0.654);
+    color:#ffccff;
+}
+
+nav ul,
+a{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 10px;
+    color:#ffccff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    transition: scale(110%);
+}
+
+.logo {
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.logo:hover {
+    letter-spacing: 5px;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 25px;
+}
+
+.header-box h3 {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.header-box h3:hover {
+    font-size: 50px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    height: 200px;
+    background-color: rgb(0,0,0, 0.654);
+    color: #ffccff;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.skills p {
+    padding: 15px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.skills p:hover {
+    border: 2px solid #ffccff;
+}
+
+.AboutMe {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://pbs.twimg.com/media/EB3a_NaXoAEQP-z.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.AboutMe h3 {
+    margin-top: 50px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    transition: 1s;
+    color:#ffccff;
+    background: rgba(0, 0, 0, 0.574);
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #ffccff;
+}
+
+
+.projectBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    color:#ffccff;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 30%;
+    border: 3px solid #ffccff;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.531);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.project-content h5{
+    padding: 50px 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.project-content:hover {
+    background-color: rgba(0, 0, 0, 0.87);
+    transform: scale(110%);
+}
+
+.project-content p {
+    text-align: center;
+    width: 80%;
+}
+
+
+.projectBox button {
+    height: 30px;
+    width: 100px;
+    background: transparent;
+    border: 2px solid #ffccff;
+    color:#ffccff;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
+.projectBox button:hover {
+    color:#000;
+    background: #ffccff;
+}
+
+footer {
+    height: 100px;
+    background-color:rgb(0,0,0, 0.654);
+    display: flex;
+    justify-content: space-between;
+    color:#ffccff;
+    align-items: center;
+    padding: 0 50px;
+}
+
+footer.logo:hover{
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: colum;
+    gap: 30px;
+    padding-left: 20px;
+    border-left: 2px solid #ffccff
+}
+
+footer ul a{
+    font-size: 10px;
+}
+
+footer ul a:hover {
+    transform: scale(110%);
+}
+
+
+
+
